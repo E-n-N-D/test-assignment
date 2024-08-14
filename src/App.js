@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import PageBox from './components/page';
+import Line from './components/line';
+import Scroller from './components/scroller';
+import SubmitButton from './components/submitButton';
 
 function App() {
+  const pages = Array.from({ length: 6 }, (_, index) => <PageBox key={index} pageText={`Page ${index + 1}`} />);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page-container'>
+       <PageBox pageText="All pages" />
+       <Line />
+       <Scroller pages={pages} />
+       <Line />
+       <SubmitButton />
     </div>
   );
 }

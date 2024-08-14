@@ -1,0 +1,51 @@
+.checkbox-container{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid rgba(205, 205, 205, 1);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: 17px 12px;
+    background-position: center;
+  }
+  
+input[type="checkbox"]:hover{
+    border-color: rgba(189, 189, 189, 1);
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7.6L7.03451 12.9672C7.05497 12.9854 7.08626 12.9837 7.1047 12.9635L18 1" stroke="rgb(227, 227, 227)" stroke-linecap="round"/></svg>');
+}
+
+input[type="checkbox"]:hover:active{
+    border-color: rgba(189, 189, 189, 1);
+    outline: 3px solid rgba(36, 105, 246, 0.1);
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7.6L7.03451 12.9672C7.05497 12.9854 7.08626 12.9837 7.1047 12.9635L18 1" stroke="rgb(135, 135, 135)" stroke-linecap="round"/></svg>');
+}
+
+input[type="checkbox"]:checked{
+    border-color: rgba(36, 105, 246, 1);
+    background-color: rgba(36, 105, 246, 1);
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7.6L7.03451 12.9672C7.05497 12.9854 7.08626 12.9837 7.1047 12.9635L18 1" stroke="rgb(255, 255, 255)" stroke-linecap="round"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 17px 12px;
+    background-position: center;
+}
+
+input[type="checkbox"]:checked:hover{
+    border-color: rgba(80, 135, 248, 1);
+    background-color: rgba(80, 135, 248, 1);
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7.6L7.03451 12.9672C7.05497 12.9854 7.08626 12.9837 7.1047 12.9635L18 1" stroke="rgb(255, 255, 255)" stroke-linecap="round"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 17px 12px;
+    background-position: center;
+}

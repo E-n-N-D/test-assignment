@@ -1,0 +1,10 @@
+.page-textbox{
+    box-sizing: border-box;
+    width: 370px;
+    height: 42px;
+    display: flex;
+    padding: 8px 15px 8px 22px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
