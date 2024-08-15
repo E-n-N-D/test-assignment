@@ -1,10 +1,17 @@
+/* .scrollable-container {
+    height: 164px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+} */
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
 .scrollable-container {
     height: 164px;
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
-}
-
-.scrollable-container::-webkit-scrollbar {
-    display: none;
 }

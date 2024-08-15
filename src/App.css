@@ -7,8 +7,21 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.frame{
+  height: 794px;
+  width: 572px;
+  background-color: white;
+}
+
 .page-container{
+  margin-top: 85px;
+  margin-left: 104px;
   box-sizing: border-box;
   display: inline-block;
   border-radius: 6px;
